@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+#content{
+    font-family: 'Arial';
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 500px;
+    background-image: linear-gradient(#3fd9fb, #8a46fc);
+    text-align: center;
+}
+#playerText{
+    color: blue;
+}
+#computerText{
+    color: red;
+}
+.choiceBtn{
+    line-height: 30px;
+    width: 150px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
